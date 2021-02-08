@@ -529,7 +529,8 @@ def active_choice_reactive_reference(parser, xml_parent, data):
         ('visible-item-count', 'visibleItemCount', 1),
         ('reference', 'referencedParameters', ''),
         ('filterable', 'filterable', False),
-        ('filter-length', 'filterLength', 1)
+        ('filter-length', 'filterLength', 1),
+        ('omit-value', 'omitValueField', False)
     ]
 
     element_name = 'org.biouno.unochoice.DynamicReferenceParameter'
